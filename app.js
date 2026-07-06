@@ -111,6 +111,9 @@ function formatMoney(amount) {
     return sym + Number(amount).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 
+/**
+ * Returns the emoji icon for a given category name.
+ */
 function getCatIcon(catName) {
     const cat = CATEGORIES.find(c => c.id === catName);
     return cat ? cat.icon : '📦';
