@@ -101,6 +101,7 @@ function switchView(view) {
     if(view === 'goals') renderGoals();
 }
 
+// --- Utility & Formatting Functions ---
 // --- formatting ---
 function formatMoney(amount) {
     const sym = state.currency === 'INR' ? '₹' : state.currency === 'USD' ? '$' : state.currency === 'EUR' ? '€' : '£';
