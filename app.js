@@ -56,7 +56,7 @@ function initApp() {
 // --- View Routing & Navigation ---
 // --- navigation ---
 const views = ['overview', 'transactions', 'budgets', 'goals', 'ai', 'settings'];
-let currentView = 'overview';
+let currentView = 'overview'; // Default view on load
 
 function setupNavigation() {
     const navList = el('navList');
