@@ -103,6 +103,9 @@ function switchView(view) {
 
 // --- Utility & Formatting Functions ---
 // --- formatting ---
+/**
+ * Formats a given amount into the selected currency.
+ */
 function formatMoney(amount) {
     const sym = state.currency === 'INR' ? '₹' : state.currency === 'USD' ? '$' : state.currency === 'EUR' ? '€' : '£';
     return sym + Number(amount).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
