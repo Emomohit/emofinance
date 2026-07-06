@@ -119,6 +119,7 @@ function getCatIcon(catName) {
     return cat ? cat.icon : '📦';
 }
 
+// --- Dashboard & Analytics ---
 // --- Dashboard Logic ---
 let trendChartInstance, catChartInstance;
 
