@@ -123,6 +123,9 @@ function getCatIcon(catName) {
 // --- Dashboard Logic ---
 let trendChartInstance, catChartInstance;
 
+/**
+ * Recalculates metrics and updates the dashboard view.
+ */
 function updateDashboard() {
     let income = 0, expense = 0;
     state.transactions.forEach(t => {
