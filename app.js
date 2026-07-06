@@ -53,6 +53,7 @@ function initApp() {
     renderGoals();
 }
 
+// --- View Routing & Navigation ---
 // --- navigation ---
 const views = ['overview', 'transactions', 'budgets', 'goals', 'ai', 'settings'];
 let currentView = 'overview';
