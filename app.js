@@ -3,6 +3,7 @@
 // Core Application Logic
 // ==========================================
 
+// --- Application State Management ---
 // --- state ---
 let state = {
     transactions: JSON.parse(localStorage.getItem('emofinance_txns')) || [],
