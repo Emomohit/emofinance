@@ -24,6 +24,7 @@ const CATEGORIES = [
     { id: 'Other', icon: '📦' }
 ];
 
+// --- DOM Elements and Caching ---
 // --- dom elements ---
 const el = (id) => document.getElementById(id);
 const bootScreen = el('bootScreen');
