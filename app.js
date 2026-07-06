@@ -30,6 +30,7 @@ const el = (id) => document.getElementById(id);
 const bootScreen = el('bootScreen');
 const appShell = el('appShell');
 
+// --- Initialization & Boot Sequence ---
 // --- init ---
 window.addEventListener('load', () => {
     setTimeout(() => {
